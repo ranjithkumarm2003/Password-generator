@@ -1,0 +1,81 @@
+@import url("https://fonts.google.com/share?selection.family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: aliceblue;
+
+}
+.password-generator{
+    max-width: 400px;
+    background-color: white;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+.password-generator h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color:rgb(54, 54, 156);
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase ;
+}
+.input-group,
+.checkbox-group,
+.generate-password {
+    margin-bottom: 15px;
+}
+.checkbox-group{
+    display: flex;
+    align-items: center;
+}
+.checkbox-group input{
+    margin-right: 5px;
+}
+.input-group label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+input[type="number"]{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid;
+    border-radius: 4px;
+}
+.generate-btn{
+    padding: 10px 20px;
+    background-color:rgb(54, 54, 156) ;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.generate-btn:hover{
+    background-color: rgb(7, 27, 67);
+}
+.generate-password{
+    margin-top: 10px;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+}
+input[type="text"]{
+    border: none;
+    outline: none;
+   flex: 1px;
+   padding: 10px;
+}
+copy-btn{
+border: none;
+padding: 5px;
+}
+     
